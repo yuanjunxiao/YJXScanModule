@@ -21,7 +21,7 @@ DEPENDENCIES:
   - YJXScanMoudle (from `../`)
 
 SPEC REPOS:
-  https://cdn.cocoapods.org/:
+  https://github.com/cocoapods/specs.git:
     - AFNetworking
 
 EXTERNAL SOURCES:
@@ -30,8 +30,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  YJXScanMoudle: 8c3bf06b094e45876d16a56291ed511e8904b3ab
+  YJXScanMoudle: 5170c0458c7aa00e168fe90a01b766d1d6135f77
 
-PODFILE CHECKSUM: 36aa97a902de8a89c9af3b64846cb1e369c1b3af
+PODFILE CHECKSUM: 2a8c7e7f489df8b084366c260fa8161bf7cf3289
 
-COCOAPODS: 1.8.0
+COCOAPODS: 1.5.3
