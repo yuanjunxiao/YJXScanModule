@@ -1,0 +1,37 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - YJXScanMoudle (0.1.0):
+    - AFNetworking
+
+DEPENDENCIES:
+  - YJXScanMoudle (from `../`)
+
+SPEC REPOS:
+  https://cdn.cocoapods.org/:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  YJXScanMoudle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  YJXScanMoudle: b80f22c4247906fa7fae740e075a478db008fd5f
+
+PODFILE CHECKSUM: 36aa97a902de8a89c9af3b64846cb1e369c1b3af
+
+COCOAPODS: 1.8.0

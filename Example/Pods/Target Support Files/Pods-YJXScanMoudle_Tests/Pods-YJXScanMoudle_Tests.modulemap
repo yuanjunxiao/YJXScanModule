@@ -1,0 +1,6 @@
+framework module Pods_YJXScanMoudle_Tests {
+  umbrella header "Pods-YJXScanMoudle_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

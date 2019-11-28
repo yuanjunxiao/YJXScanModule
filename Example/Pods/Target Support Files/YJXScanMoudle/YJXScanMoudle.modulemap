@@ -1,0 +1,6 @@
+framework module YJXScanMoudle {
+  umbrella header "YJXScanMoudle-umbrella.h"
+
+  export *
+  module * { export * }
+}

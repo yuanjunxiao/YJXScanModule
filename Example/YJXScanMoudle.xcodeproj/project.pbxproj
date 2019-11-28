@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		23CD2054EE65BAFE2C2A44E3 /* Pods-YJXScanMoudle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJXScanMoudle_Tests.release.xcconfig"; path = "Target Support Files/Pods-YJXScanMoudle_Tests/Pods-YJXScanMoudle_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4632A486BE08CD7F7F16FDAF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4632A486BE08CD7F7F16FDAF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		53611DEC6DBA005D31730C12 /* Pods-YJXScanMoudle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJXScanMoudle_Example.debug.xcconfig"; path = "Target Support Files/Pods-YJXScanMoudle_Example/Pods-YJXScanMoudle_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YJXScanMoudle_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJXScanMoudle_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,9 +63,9 @@
 		7F54759858B144DB7230D1DC /* Pods-YJXScanMoudle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJXScanMoudle_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YJXScanMoudle_Tests/Pods-YJXScanMoudle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97DA5F9AC94B9E8C9B7FD61F /* Pods_YJXScanMoudle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJXScanMoudle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A11CAF5C920ACCA2FDEB80F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A11CAF5C920ACCA2FDEB80F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DAB90DA0165A6DCF9EFD80AD /* Pods-YJXScanMoudle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJXScanMoudle_Example.release.xcconfig"; path = "Target Support Files/Pods-YJXScanMoudle_Example/Pods-YJXScanMoudle_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EFCAED203D5C60A903FFD1AF /* YJXScanMoudle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YJXScanMoudle.podspec; path = ../YJXScanMoudle.podspec; sourceTree = "<group>"; };
+		EFCAED203D5C60A903FFD1AF /* YJXScanMoudle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YJXScanMoudle.podspec; path = ../YJXScanMoudle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FA5A1AE2EBD1740751C2CE17 /* Pods_YJXScanMoudle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJXScanMoudle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				7F54759858B144DB7230D1DC /* Pods-YJXScanMoudle_Tests.debug.xcconfig */,
 				23CD2054EE65BAFE2C2A44E3 /* Pods-YJXScanMoudle_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -302,10 +302,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YJXScanMoudle_Example/Pods-YJXScanMoudle_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/YJXScanMoudle/YJXScanMoudle.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YJXScanMoudle.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

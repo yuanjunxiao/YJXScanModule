@@ -1,0 +1,32 @@
+{
+  "name": "YJXScanMoudle",
+  "version": "0.1.0",
+  "summary": "A scan module for iOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yuanjunxiao/YJXScanModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "peter_jxyuan": "peter_jxyuan@vipabc.com"
+  },
+  "source": {
+    "git": "https://github.com/yuanjunxiao/YJXScanModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "YJXScanMoudle/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "AVFoundation"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
+}
